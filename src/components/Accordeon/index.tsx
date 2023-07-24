@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { RiArrowDownSLine, RiArrowUpSLine } from "react-icons/ri";
 
 function Accordion() {
-  const [isOpen, setIsOpen] = useState(0); // Inicia com o primeiro item aberto
+  const [isOpen, setIsOpen] = useState(-1); // Inicia com o primeiro item aberto
 
   const toggleItem = (index: number) => {
     setIsOpen(isOpen === index ? -1 : index);

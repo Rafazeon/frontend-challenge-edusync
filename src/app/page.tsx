@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="mt-28">
+      <main className="tablet:mt-28 mobile:mt-2">
         <section>
           <Banner />
         </section>

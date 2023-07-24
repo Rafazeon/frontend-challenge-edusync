@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex tablet:justify-between mobile:justify-center p-6">
+          <div className="flex tablet:justify-between mobile:justify-center tablet:p-6 mobile:pt-6">
             <p className="text-base-edusync mobile:hidden tablet:block">Copyright © 2022 - All rights reserved</p>
             <Image src="/img/mini-logo.svg" width={94} height={16} alt="Logo" />
           </div>
