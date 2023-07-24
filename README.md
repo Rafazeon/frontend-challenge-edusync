@@ -15,6 +15,7 @@
 
 Este desafio consiste no desenvolvimento da interface de uma landing page e uma dashboard. Os mockups estão no figma:
 
+- Link do Projeto NextJS: https://projeto-edusync.vercel.app
 - Projeto: https://www.figma.com/file/B8scopEM014WR4Oh58UaDb/%5BEduSynch%5D--Front-End-Test
 - Landing Page: https://www.figma.com/file/B8scopEM014WR4Oh58UaDb/%5BEduSynch%5D--Front-End-Test?node-id=1%3A1741
 - Dashboard: https://www.figma.com/file/B8scopEM014WR4Oh58UaDb/%5BEduSynch%5D--Front-End-Test?node-id=1%3A2555

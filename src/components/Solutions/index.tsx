@@ -2,6 +2,8 @@
 import Card from "../Card";
 import Carousel from "react-elastic-carousel";
 
+const CarouselComponent: any = Carousel
+
 export default function Solutions() {
   function TabletOrDesktop() {
     return (
@@ -42,7 +44,7 @@ export default function Solutions() {
   function Mobile() {
     return (
       <div className="tablet:hidden w-full mt-10">
-        <Carousel isRTL={false} showArrows={false}>
+        <CarouselComponent isRTL={false} showArrows={false}>
           <Card
             icon="icon1"
             title="For your company"
@@ -68,7 +70,7 @@ export default function Solutions() {
             subtitle="Crypto Solutions"
             content="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, "
           />
-        </Carousel>
+        </CarouselComponent>
       </div>
     );
   }
